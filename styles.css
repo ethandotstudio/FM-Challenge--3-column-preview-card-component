@@ -1,0 +1,99 @@
+body {
+  padding: 24px;
+  min-width: calc(320rem / 16);
+  display: grid;
+  place-content: center;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: var(--very-light-gray);
+}
+
+main {
+  border-radius: calc(10rem / 16);
+  overflow: hidden;
+  max-width: calc(920rem / 16);
+}
+
+section {
+  padding: 48px;
+  color: var(--very-light-gray);
+}
+
+h2 {
+  font-family: "Big Shoulders Display";
+  font-size: calc(40rem / 16);
+  text-transform: uppercase;
+  margin-block: 35px 25px;
+}
+
+p {
+  font-size: calc(15rem / 16);
+}
+
+a {
+  font-size: 15rem / 16;
+  width: calc(150rem / 16);
+  height: calc(48rem / 16);
+  display: grid;
+  place-content: center;
+  text-transform: capitalize;
+  background-color: var(--very-light-gray);
+  margin-block-start: 25px;
+  border-radius: calc(30rem / 16);
+}
+
+.sedans {
+  background-color: var(--bright-orange);
+}
+
+.suvs {
+  background-color: var(--dark-cyan);
+}
+
+.luxury {
+  background-color: var(--very-dark-cyan);
+}
+
+.sedans a {
+  color: var(--bright-orange);
+}
+
+.suvs a {
+  color: var(--dark-cyan);
+}
+
+.luxury a {
+  color: var(--very-dark-cyan);
+}
+
+@media (min-width: calc(800rem / 16)) {
+  main {
+    display: flex;
+  }
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: var(--very-light-gray);
+    border: 2px solid white;
+  }
+
+  .sedans a:hover {
+    background-color: var(--bright-orange);
+  }
+
+  .suvs a:hover {
+    background-color: var(--dark-cyan);
+  }
+
+  .luxury a:hover {
+    background-color: var(--very-dark-cyan);
+  }
+}
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --p-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
