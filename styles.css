@@ -69,6 +69,10 @@ a {
   main {
     display: flex;
   }
+
+  a {
+    margin-block-start: calc(83rem / 16);
+  }
 }
 
 @media (hover: hover) {
