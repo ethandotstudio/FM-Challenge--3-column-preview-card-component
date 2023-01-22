@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://ethandotstudio.github.io/FM-Challenge--3-column-preview-card-component)
+- [Live Site](https://ethandotstudio.github.io/Frontend-Mentor__3-Column-Preview-Card-Component)
 
 ## My process
 
